@@ -1,0 +1,116 @@
+body{
+  background-color:#ccffff;
+  font-family: 'Mali', cursive;
+}
+.my-logo{
+  height: 70px;
+  width: 70px;
+}
+.heading-text{
+margin-left:10px;
+}
+.parent-nav{
+  display: flex;
+  flex-direction:row;
+  width:100%;
+  position: fixed;
+}
+.heading{
+  display : flex;
+  flex-direction: row;
+  float: left;
+  width: 50%;
+  background-color: #00cccc;
+  height: 70px;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+.nav-bar{
+
+  text-align: right;
+  float:right;
+  width: 50%;
+  background-color: #00cccc;
+  height: 70px
+}
+.nav-text{
+
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.parent-image{
+  display: flex;
+
+  justify-content: center;
+  background-color: #ccffff;
+  padding-top: 30px;
+  margin-right: -7px
+
+}
+.image{
+  position: relative;
+  width: 150px;
+  height:200px;
+  border-radius: 50%;
+  border-width: 7px;
+  border-color: white;
+  border-style: solid;
+
+}
+.interest-list{
+  background-color:#ccffff;
+  margin-top: -17px;
+  margin-right: -7px;
+  font-size: 30px;
+}
+.family-text{
+  font-size: 30px;
+}
+
+.linkedin-img{
+  width: 150px;
+  height: 90px;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  text-align: center;
+  margin-top: 20px;
+
+}
+.github{
+  float: right;
+  width: 50%;
+  display: inline-block;
+
+}
+.linkedin{
+  float: left;
+  width: 50%;
+    display: inline-block;
+}
+.github-img{
+  height: 90px;
+  width: 150px;
+
+}
+.logo{
+text-align: center;
+margin-top: 40px;
+}
+.email-logo{
+  width: 150px;
+  height: 90px;
+}
+.aboutme-text{
+  font-size: 30px;
+}
+.my-projects{
+  font-size: 30px;
+}
